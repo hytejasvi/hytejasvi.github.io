@@ -5,6 +5,7 @@ body{
 }
 .list-group-item{
 	border: 0;
+	background-color: black;
 }
 #home{
 	background-color: black;
@@ -15,5 +16,15 @@ body{
 	background-color: white;
 }
 footer{
-	background-color: white;
+	color: white;
+	background-color: black;
+}
+h1, h2, h4{
+	font-family: 'Cabin Sketch', cursive;
+}
+h2{
+	margin-top: 100px;
+}
+h4{
+	color: black;
 }
