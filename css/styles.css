@@ -28,3 +28,23 @@ h2{
 h4{
 	color: black;
 }
+.slidebox{
+	background-color: lavender;
+	width: 120px;
+	height: 20px;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+.slide{
+	width: 120px;
+	height: 20px;
+	background-color: gray; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to right, orange , yellow, green);
+	border-radius: 20px;
+	margin-top: 15px;
+	position: relative
+}
+.starrate{
+	mask-image: url("/../media/star-fill.svg");
+	mask-repeat: no-repeat;
+}
