@@ -49,7 +49,11 @@ h4{
 	mask-repeat: no-repeat;
 }
 address{
-	background-color: lavender;
+	background-color: #e0bb1b;
 	padding: 10px;
 	border-radius: 20px;
+	color: #161202;
+}
+address>a{
+	color: #1b40e0;
 }
