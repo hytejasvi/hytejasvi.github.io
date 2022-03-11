@@ -29,10 +29,9 @@ h4{
 	color: black;
 }
 .slidebox{
-	background-color: lavender;
+  	background-image: linear-gradient(to right, orange , yellow, green);
 	width: 120px;
 	height: 20px;
-	border-radius: 20px;
 	margin-top: 5px;
 }
 .slide{
@@ -44,9 +43,15 @@ h4{
 	margin-top: 15px;
 	position: relative
 }
-.starrate{
+/*.starrate{
 	mask-image: url("/../media/star-fill.svg");
 	mask-repeat: no-repeat;
+}*/
+.starrate{
+	height: 20px;
+	background-color: lavender;
+	margin-right: 0;
+	margin-left: auto;
 }
 address{
 	background-color: #e0bb1b;
